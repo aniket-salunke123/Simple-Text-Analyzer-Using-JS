@@ -1,0 +1,1 @@
+# Simple-Text-Analyzer-Using-JS-Without-AI-ML-
