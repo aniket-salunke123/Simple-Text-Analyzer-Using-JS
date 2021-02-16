@@ -16,8 +16,9 @@ function Analyze(text) {
             l_count++;
         }
 
-        if (text[i] == ' ') {
-            w_count += 2;
+        if (text[i] == ' ' || i == text.length - 1) {
+            w_count++;
+
         }
 
         for (let j = 0; j < punctuations.length; j++) {
