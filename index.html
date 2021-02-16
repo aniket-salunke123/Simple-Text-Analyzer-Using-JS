@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer Using Js</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="site-title">
+            <h1>Text Analyzer</h1>
+
+        </div>
+    </header>
+
+    <div class="input-section">
+        <textarea name="input_text" id="input_text" cols="30" rows="10"></textarea>
+    </div>
+
+    <button type="button" onclick="Analyze(input_text.value)">Analyze</button>
+
+    <div class="result-section">
+        
+        <!-- <div class="result">
+            Total Lines In Text : <span id="res_lines"></span>(Incorrect)
+        </div> -->
+
+        <div class="result">
+            Total Characters In Text : <span id="res_characters"></span>
+        </div>
+
+        <div class="result">
+            Total Words In Text : <span id="res_words"></span>
+        </div>
+
+        <div class="result">
+            Total Punctuation Marks In Text : <span id="res_punc"></span>
+        </div>
+
+        <div class="result">
+            Total Sentences In Text : <span id="res_sentences"></span>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
